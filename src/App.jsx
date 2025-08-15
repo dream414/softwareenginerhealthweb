@@ -7,9 +7,12 @@ import RankingBars from './rankinglist.jsx'
 import SimpleForm from "./SimpleForm.jsx";
 import Footer from "./Foote.jsx";
 import SixBoxesSlider from "./SixBoxesSlider.jsx";
+import Navbar from "./navbar.jsx";
+
 
 export default function App() {
   return (<>
+ <Navbar/>
     <Navba/>
     <ResponsiveHomeHero/>
     <FourBoxes/>
